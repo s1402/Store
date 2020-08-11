@@ -1,0 +1,153 @@
+/* import fonts from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato:wght@700&family=Roboto:wght@100&family=Sofia&display=swap');
+
+:root{
+    --maincolor:#45ccb8;
+    --border:#2b303218;
+    --lightgrey:#2b2c3244;
+    --textcolor:#ff686b;
+    --roboto:"Roboto",sans-serif;
+    --gugi:"Gugi",cursive;
+    --sofia:"Sofia",cursive;
+    --anton:"Anton",cursive;
+
+}
+
+.primary-class{
+  
+    font-family: var(--sofia);
+
+}
+.lightgrey{
+    color:var(--lightgrey);
+}
+.lightblue{
+    color:lightblue;
+}
+.textcolor{
+    color:var(--textcolor);
+}
+.textwhite{
+    color:white;
+}
+.header-links {
+    color:white!important;
+    text-decoration:none;
+    font-size: 0.9em;
+    font-family:var(--gugi);
+}
+.header-links a {
+    color:white;
+    text-decoration:none;
+    font-size: 0.9em;
+    font-family:var(--gugi);
+}
+header{
+    background-color:var(--maincolor)!important;
+}
+.dropdown-toggle,
+.dropdown-item{
+    font-size:1.0em;
+}
+/* Navigation */
+
+.navbar-nav a{
+    /* CONTROLS NAV TEXTS (since texts in navbar are links)*/
+    margin-right:4.5rem !important;
+    font-size:0.9em;
+    
+   
+}
+
+
+.nav-item {
+    /* CONTROLS NAV SYMBOLS*/
+    color:var(--textcolor);
+    margin-right:6.5rem !important;
+}
+.special a{
+    /* CONTROLS NAV TEXTS (since texts in navbar are links)*/
+
+    font-size:1.2em;
+    color:var(--textcolor)!important;
+    text-decoration: none;
+    padding-left: 0%;
+    font-family: var(--gugi);
+   
+}
+.special_title{
+    font-family: var(--anton);
+    color:var(--textcolor)!important;
+    
+}
+.special_subtitle{
+    font-family: var(--roboto);
+    color:var(--maincolor)!important;
+   
+}
+.special_price{
+    
+    color:var(--maincolor)!important;
+   
+}
+.special {
+    /* CONTROLS NAV TEXTS (since texts in navbar are links)*/
+
+    font-size:1.2em;
+
+    font-family: var(--sofia);
+   
+}
+.img-wrap
+{
+    width:100%;
+    height:95%;
+}
+.img-wrap img{
+    width:100%;
+    height:95%;
+    box-shadow: 0 0 10px #999999;
+    border-radius:60%;
+}
+#aboutus
+h2{
+margin-bottom:25;
+}
+#aboutus
+{
+   padding:0;
+}
+#aboutus
+h2
+{
+    color:var(--maincolor)!important;
+    font-family: var(--sofia);
+}
+footer
+{
+    background-color: #303036;
+}
+.footer-bottom
+{
+    color:white;
+    height: 80px!important;
+}
+.contact
+{
+    color:white;
+  
+    padding: 2px;
+    
+}
+.social
+{
+    color:white;
+    padding: 2px;
+}
+.social a{
+    text-decoration: none;
+    color:white;
+    font-size: 0.9em;;
+    font-family: var(--gugi);
+
+}
